@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Shammas | Web Automation Developer</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background: #f8f9fa; color: #333; }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        
+        /* Header Section */
+        header { text-align: center; padding-bottom: 50px; }
+        .profile-img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 20px; border: 5px solid white; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        h1 { margin: 10px 0; color: #2c3e50; font-size: 2.5rem; }
+        p.subtitle { color: #666; font-size: 1.2rem; margin-top: 0; }
+        
+        /* Projects Grid */
+        .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 20px; }
+        
+        .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .card h3 { margin-top: 0; color: #007bff; }
+        .card p { line-height: 1.6; color: #555; }
+        
+        .btn { display: inline-block; margin-top: 15px; padding: 10px 25px; background: #007bff; color: white; text-decoration: none; border-radius: 25px; font-weight: 600; transition: background 0.2s; }
+        .btn:hover { background: #0056b3; }
+        
+        /* Contact Section */
+        .contact { margin-top: 80px; text-align: center; padding: 40px; background: white; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .contact a { color: #007bff; font-weight: bold; text-decoration: none; font-size: 1.1rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://github.com/Ahmedshammas.png" alt="Ahmed Shammas" class="profile-img">
+            <h1>Ahmed Shammas</h1>
+            <p class="subtitle">BCA Student & Freelance Web Developer</p>
+            <p style="max-width: 600px; margin: 10px auto; color: #777;">I build "Smart Websites" that automate business tasks. My sites don't just look good—they capture leads and save you time.</p>
+        </header>
+
+        <section>
+            <h2 style="text-align: center; margin-bottom: 30px;">Featured Projects</h2>
+            <div class="projects">
+                <div class="card">
+                    <h3>🎂 Zain's Cake House</h3>
+                    <p>A full multi-page website for a custom bakery. Features a mobile-first responsive design and a custom order form that sends data directly to the owner.</p>
+                    <a href="https://ahmedshammas.github.io/zain-cake-house/" class="btn" target="_blank">View Live Site</a>
+                </div>
+                
+                <div class="card">
+                    <h3>🏠 Hygge Interior Studio</h3>
+                    <p>A minimalist portfolio for an interior design firm. Includes an automated "Contact Us" system that captures client details into a Google Sheet using Apps Script.</p>
+                    <a href="https://ahmedshammas.github.io/hygge-interior-studio/" class="btn" target="_blank">View Live Site</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="contact">
+            <h3>Ready to upgrade your business?</h3>
+            <p>I'm currently accepting new freelance projects.</p>
+            <a href="mailto:ahmedshammas311@gmail.com">Let's Discuss Your Project →</a>
+        </div>
+    </div>
+</body>
+</html>
